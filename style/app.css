@@ -43,7 +43,24 @@ header {
     justify-content: space-evenly;
 }
 
-.category-area{
+.brand {
+    margin-left: 18rem;
+    gap: 2rem;
+    display: flex;
+    flex: 3;
+}
+
+
+.logo svg{
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    scale: 2;
+}
+
+.register{
+    display: flex;
+    align-items: center;
 }
 
 main {
@@ -52,27 +69,15 @@ main {
     margin: auto;
 }
 
-
-.brand {
-    margin-left: 18rem;
-    gap: 2rem;
-    display: flex;
-    flex: 3;
-}
-
-.logo {
-    align-items: center;
-    width: 2rem;
-    height: 2rem;
-}
-
 .languages {
+    font-size: 15px;
     color: white;
     width: 7rem;
     height: 2rem;
     font-family: 'Kanit', sans-serif;
     font-family: 'Roboto', sans-serif;
     flex: 1;
+    margin-left: 5rem;
 }
 
 .user-area {
@@ -84,14 +89,15 @@ main {
 }
 
 .search-bar {
-    background-color:white;
-    width: 20rem;
-    height: 2rem;
+    display: flex;
+    width: 15%;
 }
 
-
-.monster-hunter-image {
-    width: 100%
+input[type="text"] {
+    padding: 12px; /* Aumenta el tamaño del padding para la barra de entrada */
+    font-size: 13px; /* Aumenta el tamaño del texto en la barra de entrada */
+    flex: 1;
+    width: 100%;
 }
 
 .daily-product-offer{
@@ -106,6 +112,14 @@ main {
     position: absolute;
     z-index: 1000;
     top: 35rem;
+}
+
+.daily-product-info{
+    background-color: rgba(85, 81, 81, 0.781);
+}
+
+.monster-hunter-image {
+    width: 100%
 }
 
 .daily-product-title {
@@ -124,6 +138,41 @@ main {
     height: 20rem;
 }
 
+.top-product-one-info {
+    background-color:rgba(85, 81, 81, 0.781);
+    opacity: 80%;
+}
+
+.top-product-two-info {
+    background-color: rgba(85, 81, 81, 0.781);
+    opacity: 80%;
+}
+
+.top-product-three-info {
+    background-color: rgba(85, 81, 81, 0.781);
+    opacity: 80%;
+}
+
 .baldurs-gate-image {
-    width: 50%;
+    width: 388px;
+    height: 219px;
+}
+
+.skyrim-image {
+    width: 388px;
+    height: 219px;
+}
+
+.forza-horizon-5-image {
+    width: 388px;
+    height: 219px;
+}
+
+.banner-image{
+    width: 100%;
+    height: 150px;
+}
+
+.offers{
+    display: flex;
 }
