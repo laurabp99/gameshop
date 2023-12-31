@@ -9,6 +9,14 @@ h1, h2, h3{
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
 body {
     background-color: hsl(240, 58%, 18%);
     width: 100%;
@@ -76,6 +84,7 @@ main {
     height: 2rem;
     font-family: 'Kanit', sans-serif;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
     flex: 1;
     margin-left: 5rem;
 }
@@ -91,6 +100,7 @@ main {
 .search-bar {
     display: flex;
     width: 15%;
+    transform: translateX(15rem);
 }
 
 input[type="text"] {
@@ -111,7 +121,7 @@ input[type="text"] {
     height: 3rem;
     position: absolute;
     z-index: 1000;
-    top: 35rem;
+    transform: translateY(-6rem);
 }
 
 .daily-product-info{
@@ -119,7 +129,8 @@ input[type="text"] {
 }
 
 .monster-hunter-image {
-    width: 100%
+    width: 100%;
+    cursor: pointer;
 }
 
 .daily-product-title {
@@ -128,6 +139,10 @@ input[type="text"] {
 
 .daily-product-price {
     font-size: 30px;
+}
+
+.most-searched{
+    margin-top: 4rem;
 }
 
 .top-products {
@@ -156,16 +171,23 @@ input[type="text"] {
 .baldurs-gate-image {
     width: 388px;
     height: 219px;
+    cursor: pointer;
 }
 
 .skyrim-image {
     width: 388px;
     height: 219px;
+    cursor: pointer;
 }
 
 .forza-horizon-5-image {
     width: 388px;
     height: 219px;
+    cursor: pointer;
+}
+
+.banner{
+    padding: 2rem 0;
 }
 
 .banner-image{
@@ -175,4 +197,98 @@ input[type="text"] {
 
 .offers{
     display: flex;
+    padding: 1rem 0;
+    gap: 1rem;
+}
+
+.offer-one img{
+    width: 100%;
+}
+
+.offer-two img{
+    width: 100%;
+}
+
+.offer-three img{
+    width: 100%;
+}
+
+.offer-four img{
+    width: 100%;
+}
+
+.offer-one-offer{
+    background-color: rgb(218, 80, 25);
+    width: 4rem;
+    height: 2rem;
+    position: absolute;
+    z-index: 1000;
+    transform: translateY(-3rem);
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.offer-one-info {
+    background-color:rgba(85, 81, 81, 0.781);
+    opacity: 80%;
+}
+
+.offer-two-offer{
+    background-color: rgb(218, 80, 25);
+    width: 4rem;
+    height: 2rem;
+    position: absolute;
+    z-index: 1000;
+    transform: translateY(-3rem);
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.offer-two-info {
+    background-color:rgba(85, 81, 81, 0.781);
+    opacity: 80%;
+}
+
+.offer-three-offer{
+    background-color: rgb(218, 80, 25);
+    width: 4rem;
+    height: 2rem;
+    position: absolute;
+    z-index: 1000;
+    transform: translateY(-3rem);
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.offer-three-info {
+    background-color:rgba(85, 81, 81, 0.781);
+    opacity: 80%;
+}
+
+.offer-four-offer{
+    background-color: rgb(218, 80, 25);
+    width: 4rem;
+    height: 2rem;
+    position: absolute;
+    z-index: 1000;
+    transform: translateY(-3rem);
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.offer-four-info {
+    background-color:rgba(85, 81, 81, 0.781);
+    opacity: 80%;
 }
