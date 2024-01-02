@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+body {
+    background-color: hsl(240, 58%, 18%);
+    width: 100%;
+    background-image: url('https://i.pinimg.com/originals/33/11/92/3311924db62ceef62a4a7ee87017280f.jpg');
+    background-attachment: fixed;
+    background-size: 110%;
+}
+
+header {
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    height: 11rem;
+}
+
+.header-main-bar {
+    align-items: center;
+    flex: 2;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.header-sub-bar {
+    display: flex;
+    gap: 3rem;
+    flex: 1;
+    background-color: hsl(269, 42%, 29%);
+    width: 100%;
+    height: 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.brand {
+    margin-left: 18rem;
+    gap: 2rem;
+    display: flex;
+    flex: 3;
+}
+
+
+.logo svg{
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    scale: 2;
+}
+
+.register{
+    display: flex;
+    align-items: center;
+}
+
+
+.languages {
+    font-size: 15px;
+    color: white;
+    width: 7rem;
+    height: 2rem;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    flex: 1;
+    margin-left: 5rem;
+}
+
+.background-game-image img{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+.skyrim-background-image{
+    width: 100%;
+}
+
+.skyrim-background::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh; /* Ajusta la altura del degradado según tus necesidades */
+    background: linear-gradient(to bottom, transparent, #333); /* Ajusta el color del degradado según tus preferencias */
+    z-index: 1;
+}
+
+.test{
+    display: flex;
+    width: 100%;
+    height: 4rem;
+}
+
+main{
+    display: flex;
+    gap: 5rem;
+}
+
+.main-game-image{
+    display: flex;
+    padding-left: 22rem;
+    transform: translateY(40px);
+}
+
+.game-info {
+    transform: translateY(40px);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    max-width: 500px;
+}
+
+.game-title{
+    padding: 1rem;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.price-container {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 3rem;
+}
+
+.payment-options {
+    margin-top: 20px;
+}
+
+.payment-option {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.payment-option img {
+    height: 4rem;
+    width: 7rem;
+    background-color:  #ffffff; 
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.payment-option img:hover {
+    transform: scale(1.1);
+}
+
+.user-area {
+    display: flex;
+    width: 10rem;
+    height: 4rem;
+    flex: 1;
+    margin-right: 18rem;
+}
+
+.search-bar {
+    display: flex;
+    width: 15%;
+    transform: translateX(15rem);
+}
+
+input[type="text"] {
+    padding: 12px; /* Aumenta el tamaño del padding para la barra de entrada */
+    font-size: 13px; /* Aumenta el tamaño del texto en la barra de entrada */
+    flex: 1;
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(33,33,33);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 86px;
+}
+
+.footer-contents{
+    width: 70%;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-content-one{
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content-one ul{
+    color: white;
+    list-style: none;
+}
+
+.footer-content-one ul li{
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+    margin-right: 5rem;
+    cursor: pointer;
+}
+
+.footer-separator {
+    background-color: darkgray;
+    height: 2px;
+}
+
+.footer-content-two{
+    display: flex;
+}
+
+.footer-content-two h2{
+    align-self:center
+}
+
+.footer-logo{
+    align-self: center;
+}
+
+.social-media{
+    display: flex;
+    width: 15%;
+    margin-left: auto;
+}
+
+.social-media svg{
+    cursor: pointer;
+}
