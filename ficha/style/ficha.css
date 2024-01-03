@@ -102,50 +102,73 @@ header {
     z-index: -2;
     margin-top: 5rem;
     margin-left: 17rem;
-    height: 30rem;
+    height: 20rem;
     position: absolute;
 }
 
-
 .details-column {
+    text-align: center;
     flex: 1;
     margin: 10px;
-    padding: 15px;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-sizing: border-box;
     color: #ffffff;
-    text-align: left;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .details-column h2 {
-    color: rgb(51, 51, 51);
+    background-color: #1f1d1dd2;
+    border-radius: 20px;
+    color: rgb(251 248 248);
+    padding: 1rem;
 }
 
 .details-column ul {
+    margin-top: 1rem;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #2e186b5e;
+    border-radius: 20px;
+    justify-content: center;
+    width: 85%;
+    height: 70%;
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
 }
 
+
 .details-column ul li {
-    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 15px;
 }
 
 .gallery img {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
     margin: 5px;
     border-radius: 8px;
+    padding: 0 3rem;
+    border-radius: 20px;
+}
+
+.gallery svg{
+    fill: white;
+    width: 25px;
+    transform: translateY(5px);
 }
 
 main{
-    height: 110vh;
+    height: 93vh;
 }
 
 .main-game{
