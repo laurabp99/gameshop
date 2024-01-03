@@ -1,11 +1,9 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3{
     color: white;
     font-family: 'Kanit', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -57,18 +55,17 @@ header {
     margin-left: 18rem;
     gap: 2rem;
     display: flex;
-    flex: 3;
 }
 
 
-.logo svg {
+.logo svg{
     align-items: center;
     width: 2rem;
     height: 2rem;
     scale: 2;
 }
 
-.register {
+.register{
     display: flex;
     align-items: center;
 }
@@ -77,18 +74,120 @@ header {
 .languages {
     font-size: 15px;
     color: white;
-    width: 7rem;
+    width: 36%;
     height: 2rem;
     font-family: 'Kanit', sans-serif;
     font-family: 'Roboto', sans-serif;
-    text-align: center;
-    flex: 1;
-    margin-left: 5rem;
+    text-align: right;
+    margin-right: 5rem;
 }
 
 main {
     width: 70%;
     height: 90vh;
-    background-color: beige;
+    background-color: rgba(51, 51, 51, 0.884);
+    margin: auto;
     display: flex;
+}
+
+.your-cart{
+    flex: 2;
+    margin-top: 3rem;
+}
+
+.your-cart h2{
+    border-radius: 20px;
+    background-color: blueviolet;
+    padding: 2rem;
+    margin-left: 5rem;
+    font-family: 'Roboto', sans-serif;
+    width: 74%;
+}
+
+.cart-screen{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+}
+
+.summary{
+    flex: 1;
+    margin-top: 3rem;
+}
+
+.summary-title h2{
+    border-radius: 20px;
+    background-color: blueviolet;
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+    width: 66%;
+}
+
+.summary-screen{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 60vh;
+    width: 80%;
+}
+
+footer{
+    background-color: rgb(33,33,33);
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-contents{
+    width: 70%;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-content-one{
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content-one ul{
+    color: white;
+    list-style: none;
+}
+
+.footer-content-one ul li{
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+    margin-right: 5rem;
+    cursor: pointer;
+}
+
+.footer-separator {
+    background-color: darkgray;
+    height: 2px;
+}
+
+.footer-content-two{
+    display: flex;
+}
+
+.footer-content-two h2{
+    align-self:center
+}
+
+.footer-logo{
+    align-self: center;
+}
+
+.social-media{
+    display: flex;
+    width: 15%;
+    margin-left: auto;
+}
+
+.social-media svg{
+    cursor: pointer;
 }
