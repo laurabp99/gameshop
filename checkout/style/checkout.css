@@ -11,6 +11,7 @@ h1, h2, h3, h4{
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 a:visited {
@@ -246,7 +247,7 @@ main {
 .submit-btn {
     background-color: #4CAF50;
     color: white;
-    padding: 10px 0;
+    padding: 16px 0;
     border: none;
     border-radius: 5px;
     cursor: pointer;
